@@ -8,37 +8,29 @@ Dies ist das Repository für den **LinkedIn Learning** Kurs `[COURSENAME]`. Den 
 
 ## Anleitung
 
-Dieses Repository hat Branches für jedes Video im Kurs. Verwenden Sie das Ausklappmenü "Branch: ..." in GitHub um zwischen den unterschiedlichen Branches hin und her zu wechseln bzw. um bei einem spezifischen Status einzusteigen. Oder Sie fügen `/tree/BRANCH_NAME` der URL hinzu um direkt in den gewünschten Branch zu wechseln.
+Im Rahmen dieses Kurses entwickeln Sie eine erste Teams-App, die in einem Teamraum als Dashboard für den Informationsaustausch innerhalb eines Teams genutzt werden kann. Dabei soll jedes Teammitglied durch eine Spalte repräsentiert werden und perspektivisch können auf diesem Dashboard die Aufgaben der Teammitglieder aufgerufen sowie Dokumente, Links und ein Status durch jedes Teammitglied erfasst und mit dem gesamten Team geteilt werden.
 
-## Branches
-
-Die Git Branches sind passend zu den Videos im Kurs strukturiert. Die Namenskonvention lautet `Kapitel#_Video#`. Der Branch `02_03` beinhaltet zum Beispiel die Übungen für das dritte Video im zweiten Kapitel. 
-Einige Branches haben einen Anfangsstatus (`b`) für "beginning" und einen Endstatus (`e`). Der Branch mit dem `e` am Ende beinhaltet in diesem Fall stets den Code der am Ende des Videos zu sehen ist. Der `master` Branch beinhaltet den initialen Quellcode und wird nicht für die Übungen innerhalb des Kurses genutzt.
-
-Wenn Sie von einem Branch nach Änderungen zum nächsten Branch wechseln, erhalten Sie möglicherweise die folgende Meldung:
-
-```
-error: Your local changes to the following files would be overwritten by checkout:        [files]
-Please commit your changes or stash them before you switch branches.
-Aborting
-```
-
-Dieses Problem lösen Sie wie folgt:
-    Add changes to git using this command: git add .
-    Commit changes using this command: git commit -m "some message"
+Im Rahmen dieses Kurses wird das Fundament für diese Lösung gelegt, indem die App als Registerkarte in einem beliebigen Teamraum hinzugefügt werden kann und alle zu dem Team gehörenden Personen in einem Spaltenlayout darstellt werden. Dieses Repository stellt Ihnen die im Rahmen dieses Kurses erstellte Lösung sowie die verwendeten Code-Snippets für die weitere Entwicklung zur Verfügung. So können Sie die praktischen Übungen dieses Kurses besser nachvollziehen und die App im Anschluss an diesen Kurs um die noch fehlenden Funktionen erweitern. Vielleicht stellen Sie die App im Rahmen der Weiterentwicklung sogar als persönliche App oder als App für eine Teams-Besprechung bereit.
 
 ## Installation
 
 1. Um diese Übungsdateien nutzen zu können, müssen Sie folgendes installiert haben:
-   - [list of requirements for course]
-2. Klonen Sie das Repository in Ihre lokale Maschine unter Verwendung von terminal (Mac), CMD (Windows) oder ein anderes Werkzeug mit grafischer Bedienoberfläche wie SourceTree.
-3. [Course-specific instructions]
+   - Einen Quellcode-Editor wie zum Beispiel Visual Studio Code und
+   - Docker Desktop (https://www.docker.com/products/docker-desktop/) oder 
+   - Node.js, Gulp und Yeoman inkl. SharePoint-Generator (eine Anleitung hierzu finden Sie bei Microsoft unter https://learn.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-development-environment)
+2. Sie benötigen außerdem einen Microsoft-365-Tenant für die Entwicklung und das Testen Ihrer erstellten Apps. Unter https://developer.microsoft.com/en-us/microsoft-365/dev-program können Sie sich für das Microsoft 365 Developer Program registrieren. Sie erhalten über dieses Program einen für die Entwicklung vorgesehenen Microsoft-365-Tenant mit 25 E5-Developer-Lizenzen.
+3. Klonen Sie das Repository in Ihre lokale Maschine unter Verwendung von terminal (Mac), CMD (Windows) oder ein anderes Werkzeug mit grafischer Bedienoberfläche wie SourceTree.
+4. Für die Entwicklung können folgende Links für Sie interessant sein:
+   - Microsoft Graph: https://graph.microsoft.com/
+   - Microsoft Graph Explorer: https://developer.microsoft.com/en-us/graph/graph-explorer
+   - Fluent UI: https://developer.microsoft.com/en-us/fluentui#/
+   - Fluent UI Northstar: https://fluentsite.z22.web.core.windows.net/0.66.2/
 
 ### Autor
 
-**[Name hier eintragen]**
+**Nicole Enders**
 
-_[Berufsbezeichnung hier eintragen]_
+_Managing Consultant & Microsoft MVP für Microsoft 365 Apps & Services_
 
 Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linkedin.com/learning/instructors/name_des_autors) an.
 
