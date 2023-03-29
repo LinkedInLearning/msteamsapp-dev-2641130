@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "team-assistant-client-side-solution",
+    "id": "5bd5d28f-9c89-4eb8-bf5a-40096c5c50ba",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Team Assistant description"
+      },
+      "longDescription": {
+        "default": "Team Assistant description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "team-assistant Feature",
+        "description": "The feature that activates elements of the team-assistant solution.",
+        "id": "a7eb2a54-773f-4f95-9b39-763055be952e",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/team-assistant.sppkg"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "9c52d586-772c-4527-81fc-c4e70e34b205",
+  "alias": "TeamAssistantWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "TeamsTab",
+    "SharePointFullPage"
+  ],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Advanced"
+      },
+      "title": {
+        "default": "Team Assistant"
+      },
+      "description": {
+        "default": "Team Assistant description"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "Team Assistant"
+      }
+    }
+  ],
+  "loaderConfig": {
+    "internalModuleBaseUrls": [
+      "<!-- PATH TO CDN -->"
+    ],
+    "entryModuleId": "team-assistant-web-part",
+    "scriptResources": {
+      "team-assistant-web-part": {
+        "type": "path",
+        "path": "team-assistant-web-part_69b4fbc5b0b9d0e2f886.js"
+      },
+      "@microsoft/sp-property-pane": {
+        "type": "component",
+        "id": "f9e737b7-f0df-4597-ba8c-3060f82380db",
+        "version": "1.16.0"
+      },
+      "@microsoft/sp-lodash-subset": {
+        "type": "component",
+        "id": "73e1dc6c-8441-42cc-ad47-4bd3659f8a3a",
+        "version": "1.16.0"
+      },
+      "@microsoft/sp-core-library": {
+        "type": "component",
+        "id": "7263c7d0-1d6a-45ec-8d85-d4d1d234171b",
+        "version": "1.16.0"
+      },
+      "TeamAssistantWebPartStrings": {
+        "type": "path",
+        "path": "TeamAssistantWebPartStrings_en-us_e84a0fe2b865fd9c425e31df5e2d7961.js"
+      },
+      "@microsoft/sp-webpart-base": {
+        "type": "component",
+        "id": "974a7777-0990-4136-8fa6-95d80114c2e0",
+        "version": "1.16.0"
+      },
+      "react": {
+        "type": "component",
+        "id": "0d910c1c-13b9-4e1c-9aa4-b008c5e42d7d",
+        "version": "17.0.1"
+      },
+      "react-dom": {
+        "type": "component",
+        "id": "aa0a46ec-1505-43cd-a44a-93f3a5aa460a",
+        "version": "17.0.1"
+      }
+    }
+  }
+}

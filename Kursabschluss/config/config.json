@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "team-assistant-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/teamAssistant/TeamAssistantWebPart.js",
+          "manifest": "./src/webparts/teamAssistant/TeamAssistantWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TeamAssistantWebPartStrings": "lib/webparts/teamAssistant/loc/{locale}.js"
+  }
+}
