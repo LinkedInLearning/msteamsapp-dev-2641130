@@ -1,6 +1,6 @@
 # Apps für Microsoft Teams entwickeln – Grundlagen 
 
-Dies ist das Repository für den **LinkedIn Learning** Kurs `Apps für Microsoft Teams entwickeln – Grundlagen `. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
+Dies ist das Repository für den **LinkedIn Learning** Kurs `Apps für Microsoft Teams entwickeln – Grundlagen`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
 
 ![COURSENAME][lil-thumbnail-url] 
 
