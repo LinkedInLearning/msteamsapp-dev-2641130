@@ -1,6 +1,6 @@
-# [DE-Kursname hier eintragen]
+# Apps für Microsoft Teams entwickeln – Grundlagen 
 
-Dies ist das Repository für den **LinkedIn Learning** Kurs `[COURSENAME]`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
+Dies ist das Repository für den **LinkedIn Learning** Kurs `Apps für Microsoft Teams entwickeln – Grundlagen `. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
 
 ![COURSENAME][lil-thumbnail-url] 
 
@@ -32,10 +32,10 @@ Im Rahmen dieses Kurses wird das Fundament für diese Lösung gelegt, indem die 
 
 _Managing Consultant & Microsoft MVP für Microsoft 365 Apps & Services_
 
-Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linkedin.com/learning/instructors/name_des_autors) an.
+Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linkedin.com/learning/instructors/nicole_enders) an.
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
-[lil-course-url]: https://www.linkedin.com
-[lil-thumbnail-url]: https:
+[lil-course-url]: https://www.linkedin.com/learning/apps-fur-microsoft-teams-entwickeln-grundlagen
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQGjTX0f2p5_Ow/learning-public-crop_675_1200/0/1685682250594?e=2147483647&v=beta&t=bAkTFcMKrdmpWAq0PTexw7HjLbLOw9dFRKZRqat1A4M
 
 [1]: # (End of DE-Instruction ###############################################################################################)
