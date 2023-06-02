@@ -4,13 +4,13 @@ Dies ist das Repository für den **LinkedIn Learning** Kurs `Apps für Microsoft
 
 ![COURSENAME][lil-thumbnail-url] 
 
-[COURSEDESCRIPTION]
+Dieser LinkedIn Learning Kurs richtet sich an Web- und SharePoint-Entwickler:innen, die in das Thema der Teams-App-Entwicklung einsteigen möchten. Microsoft MVP Nicole Enders erklärt zum Start, warum Sie eine Teams-App entwickeln sollten und an welchen Stellen Sie Microsoft Teams erweitern und so Ihre individuelle Lösung einbinden können. Dann richten Sie Ihre Entwicklungsumgebung ein und erstellen Ihre erste App mit Hilfe des Frameworks SPFx und stellen diese direkt in Microsoft Teams bereit. Anschließend lernen Sie den Microsoft Graph kennen und fügen so Ihrer App nützliche Informationen hinzu. Abschließend erläutert Ihre Trainerin weitere Möglichkeiten für die Erweiterung Ihrer App sowie alternative Möglichkeiten für die Entwicklung. Mit dem in diesem Kurs vermittelten Wissen können Sie Apps mit bis zu einer mittleren Komplexität realisieren und sicher innerhalb Ihrer Microsoft-365-Umgebung bereitstellen und betreiben.
 
 ## Anleitung
 
 Im Rahmen dieses Kurses entwickeln Sie eine erste Teams-App, die in einem Teamraum als Dashboard für den Informationsaustausch innerhalb eines Teams genutzt werden kann. Dabei soll jedes Teammitglied durch eine Spalte repräsentiert werden und perspektivisch können auf diesem Dashboard die Aufgaben der Teammitglieder aufgerufen sowie Dokumente, Links und ein Status durch jedes Teammitglied erfasst und mit dem gesamten Team geteilt werden.
 
-Im Rahmen dieses Kurses wird das Fundament für diese Lösung gelegt, indem die App als Registerkarte in einem beliebigen Teamraum hinzugefügt werden kann und alle zu dem Team gehörenden Personen in einem Spaltenlayout darstellt werden. Dieses Repository stellt Ihnen die im Rahmen dieses Kurses erstellte Lösung sowie die verwendeten Code-Snippets für die weitere Entwicklung zur Verfügung. So können Sie die praktischen Übungen dieses Kurses besser nachvollziehen und die App im Anschluss an diesen Kurs um die noch fehlenden Funktionen erweitern. Vielleicht stellen Sie die App im Rahmen der Weiterentwicklung sogar als persönliche App oder als App für eine Teams-Besprechung bereit.
+Im Kurs wird das Fundament für diese Lösung gelegt, indem die App als Registerkarte in einem beliebigen Teamraum hinzugefügt werden kann und alle zu dem Team gehörenden Personen in einem Spaltenlayout darstellt werden. Dieses Repository stellt Ihnen die im Rahmen dieses Kurses erstellte Lösung sowie die verwendeten Code-Snippets für die weitere Entwicklung zur Verfügung. So können Sie die praktischen Übungen dieses Kurses besser nachvollziehen und die App im Anschluss an diesen Kurs um die noch fehlenden Funktionen erweitern. Vielleicht stellen Sie die App im Rahmen der Weiterentwicklung sogar als persönliche App oder als App für eine Teams-Besprechung bereit.
 
 ## Installation
 
